@@ -13,9 +13,9 @@ if [ "$download" -eq "1"  ]; then
  cd
  clear
  termux-setup-storage
- rm -rf $HOME/Virus
- rm -rf $HOME/Virus4.zip
- rm -rf $HOME/Virus4
+ rm -rf $HOME/Saduq-viruse
+ rm -rf $HOME/Sadiq-viruse.zip
+ rm -rf $HOME/Sadiq-viruse
  clear
  echo -e $g 'Please Wait ===+['$p'>              '$g']\'
  sleep 0.4
@@ -67,12 +67,12 @@ if [ "$download" -eq "1"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
- mkdir /sdcard/Virus4
- mkdir /sdcard/Virus4/Encrypt
+ mkdir /sdcard/Sadiq-viruse
+ mkdir /sdcard/Sadiq-viruse/Encrypt
  cd
  https://github.com/sanaullahsadiq/Sadiq-viruse
  cd
- cd Virus
+ cd Sadiq-viruse
  mv -v Virus4.zip $HOME
  cd
  rm -rf Virus
@@ -83,9 +83,9 @@ if [ "$download" -eq "1"  ]; then
  chmod +x *
  cd
  rm -rf Virus
- rm -rf Virus4.zip
+ rm -rf Sadiq-viruse.zip
  cd
- cd $HOME/Virus4/.tools
+ cd $HOME/Sadiq-viruse/.tools
  chmod +x */*
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -94,8 +94,8 @@ if [ "$download" -eq "1"  ]; then
  echo -e "     $g         Update "
  sleep 2 
 
- cd $HOME/Virus4
- python2 Virus4.py
+ cd $HOME/Sadiq-viruse
+ python2 Sadiq-viruse.py
 
 elif [ "$download" -eq "2"  ]; then
  cd
@@ -157,7 +157,7 @@ elif [ "$download" -eq "2"  ]; then
  sleep 0.4
  cd
  git clone https://github.com/sanaullahsadiq/Sadiq-viruse
- cd Virus4
+ cd Sadiq-viruse
  chmod +x *
  clear
  echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
@@ -165,7 +165,7 @@ elif [ "$download" -eq "2"  ]; then
  echo -e "     $p     new "
  echo -e "     $g         Update "
  sleep 2
- python2 Virus4.py
+ python2 Sadiq-viruse
 else :
  bash Sadiq.sh
 fi
